@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+/* Atur kursor untuk seluruh halaman */
+body {
+    cursor: url('img/custom-cursor.png') 16 16, auto;
+}
+
+
+h1 {
+    color: #ff6347;
+}
+
+#gameArea {
+    width: 80%;
+    height: 400px;
+    margin: 20px auto;
+    border: 2px dashed #4775ff;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+#score {
+    font-size: 50px; /* Ukuran tulisan, bisa diubah sesuai keinginan */
+    font-weight: bold; /* Membuat tulisan lebih tebal */
+    color: #f40000; /* Warna tulisan */
+    position: relative; /* Agar posisinya bisa diatur */
+    top: 10px; /* Jarak dari atas game area */
+    left: 20px; /* Jarak dari kiri */
+}              
+
+#cat {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    cursor: url('img/custom-cursor.png') 16 16, auto; /* Kursor tetap kustom */
+    transition: transform 0.2s; /* Animasi saat disentuh */
+}
